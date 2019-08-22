@@ -18,7 +18,7 @@
         
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://www.bkreative.net/resources/colorpalette' />
-        <meta property='og:image' content='bkms_fblogo.png' />
+        <meta property='og:image' content='images/bkms_fblogo.png' />
         <meta property='og:title' content='Color Palette | BKreative Media Solutions' />
         <meta property='og:description' content='Using JS, this webpage will display relevant color palettes' />
         <meta property='og:site_name' content='Color Palette | BKreative Media Solutions'/>
@@ -29,16 +29,16 @@
         <meta name='twitter:url' content='https://www.bkreative.net/resources/colorpalette'>
         <meta name='twitter:site' content='[+twitterHandle]'>
         <meta name='twitter:creator' content='[+twitterName]'>
-        <meta name='twitter:image' content='bkms_fblogo.png'>
+        <meta name='twitter:image' content='images/bkms_fblogo.png'>
         
         <!-- Apple Bookmarks -->
-        <link href='bkms_applelogo.png' rel='apple-touch-icon' />
-        <link href='bkms_applelogo.png' rel='apple-touch-icon' sizes='76x76' />
-        <link href='bkms_applelogo.png' rel='apple-touch-icon' sizes='120x120' />
-        <link href='bkms_applelogo.png' rel='apple-touch-icon' sizes='152x152' />
-        <link href='bkms_applelogo.png' rel='apple-touch-icon' sizes='180x180' />
-        <link href='bkms_applelogo.png' rel='icon' sizes='192x192' />
-        <link href='bkms_applelogo.png' rel='icon' sizes='128x128' />
+        <link href='images/bkms_applelogo.png' rel='apple-touch-icon' />
+        <link href='images/bkms_applelogo.png' rel='apple-touch-icon' sizes='76x76' />
+        <link href='images/bkms_applelogo.png' rel='apple-touch-icon' sizes='120x120' />
+        <link href='images/bkms_applelogo.png' rel='apple-touch-icon' sizes='152x152' />
+        <link href='images/bkms_applelogo.png' rel='apple-touch-icon' sizes='180x180' />
+        <link href='images/bkms_applelogo.png' rel='icon' sizes='192x192' />
+        <link href='images/bkms_applelogo.png' rel='icon' sizes='128x128' />
         <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
         
         <!-- PHP Includes -->
