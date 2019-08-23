@@ -47,36 +47,91 @@
     <!-- End Head -->
     
     <!-- BODY -->
-    <body>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         <!-- HEADER -->
-        <header>
-            <nav>
-            </nav>
+        <header id="header" class="affix-top" data-spy="affix" data-offset-top="5">
+            <nav class="navbar navbar-default navbar-transparent navbar-fixed-top">
+                <div class="container">
+                    <div class="header_main">
+                        <div class="logo">
+                            <a href="#index"><img src="images/logo.jpg" class="img-responsive" alt="BKreative Media Solutions Header Logo"/></a>
+                        </div>
+                        <div class="header_right">
+                            <div class="call_top"><a href="tel:8035308110"><span>803.530.8110</span></a></div>
+                            <div class="nav">
+                                <div class="nav_main">
+                                    <div class="nav_bg">
+                                        <div class="in_bg"></div> 
+                                    </div>
+                                    <ul class="navbar-nav navbar-right">
+                                        <!--li class="has-sub active">
+                                            <a class="page-scroll" href="."><< BACK TO MAIN PAGE</a>
+                                        </li-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="res_navigation">
+                                <a href="javascript:void(0)" class="nav-toggle" id="trigger-overlay">
+                                    <span class="top"></span>
+                                    <span class="middle"></span>
+                                    <span class="bottom"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav> 
         </header>
         <!-- !END HEADER -->
         
         <!-- SECTION -->
         <section id="">
+            <div class="full-height-bg" id="estimator">
+                <div class="container title">
+                    <h2>COLOR <span class="pink">PALETTE</span></h2>
+                    <span class="desc">The Color Palette  was created to help potential clients understand the <strong>best colors combinations for their brand.</strong></span>
+                </div>
+            </div>
         </section>
         <!-- !END SECTION -->
         
         <!-- FOOTER -->
         <footer>
+            <div class="CopyRightWrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="Copy"><img alt='BKreative Media Solutions Copyright Logo' src="images/copy-right-logo.png">© 2010-19 <span>BKreative Media Solutions, LLC</span>. All Rights Reserved.</div>
+                            <a href="documents/bkreativeprivacy.pdf" target="_blank" class="right">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="s-back-to-top js__back-to-top">
+                <img alt='Image of Back to Top Arrow' src="images/Up_arrow.svg"/>
+            </a>
         </footer>
         <!-- !END FOOTER -->
         
         <!-- Stylesheets & Web Fonts -->
-        <link href='[+bootstrap]' rel='stylesheet'>
-        <link href='[+bootstraptheme]' rel='stylesheet'>
-        
-        <link href='[+stylesheet]' rel='stylesheet' type='text/css'/>
-        
-        <link href='[+googlefont]' rel='stylesheet'>
-        <link href='[+googlefont]' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <link href="css/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/hack.css" rel="stylesheet" type="text/css"/>
+        <link href="css/colorpalette.css" rel="stylesheet" type="text/css"/>
         
         <!-- JavScript -->
-        <script src='[+jsURL]'></script>
-        <script src='[+jsURL]'></script>
+        <script src="js/colorpalette.js"></script>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
     <!-- !END BODY -->
 </html>
